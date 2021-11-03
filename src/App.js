@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
+import ItemListContainer from './components/items/ItemListContainer';
 //import { useMediaQuery } from 'react-responsive'
 
 //Components
-import NavBar from './Components/NavBar/NavBar'
+import NavBar from './components/navBar/NavBar'
 function App() {
   return (
     <div className="App">
       <NavBar/>
+      <ItemListContainer/>
     </div>
   );
 }

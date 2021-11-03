@@ -1,9 +1,9 @@
 import React from 'react';
 import './NavBar.scss';
+import CartWidget from './CartWidget'
 
 //Icons
 import avatar from '../../assets/avatar-icon.svg';
-import cart from '../../assets/cart-icon.svg'
 import search from '../../assets/search-icon.svg'
 import isologo from '../../assets/isologo-black.svg'
 
@@ -23,7 +23,7 @@ const NavBar = () => {
 			</div>
 			<div className="IconMenuContainer">
 				<img src={avatar} alt='Profile'/>
-				<img src={cart} alt='Cart'/>
+				<CartWidget/>
 				<img src={search} alt='Search'/>
 			</div>
 		</div>
