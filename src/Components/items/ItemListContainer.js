@@ -1,9 +1,19 @@
 import React from "react";
+import './ItemListContainer.scss'
+import Item from './Item';
 
 const ItemListContainer = () => {
     return (
         <>
-        <h2>Lista de ítems</h2>
+        <div className='ItemListContainer'>
+            <Item/>
+            <Item/>
+            <Item/>
+            <Item/>
+            <Item/>
+            <Item/>
+            <Item/>
+        </div>
         </>
     )
 }

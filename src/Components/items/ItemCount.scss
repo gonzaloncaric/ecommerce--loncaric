@@ -1,0 +1,48 @@
+.ItemButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItemCountContainer {
+    border: 1px solid black;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    margin: 8px;
+    .Add,
+    .Delete {
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        background-color: transparent;
+        padding: 4px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+    .Count {
+        font-size: 20px;
+        padding: 0 24px;
+    }
+}
+
+.AddToCart {
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 40px;
+    margin: 8px;
+    cursor: pointer;
+    .AddToCartIcon {
+        width: 20px;
+        cursor: pointer;
+    }
+}
